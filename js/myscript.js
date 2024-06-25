@@ -4,7 +4,8 @@ const { createApp } = Vue;
 createApp({
     data() {
         return {
-            message: "Ciao a tutti"
+            message: "Ciao a tutti",
+            myImg: '../vue-hello/img/04.webp'
         }
     }
 }).mount('#container');
